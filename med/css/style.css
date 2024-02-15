@@ -1,0 +1,169 @@
+/* Starting styling the main rules */
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+/*The end of stylying the main rules*/
+.container
+{
+    width:100%;
+    height:100vh;
+    background-color: #c0d9e7;
+    padding-top:30px;
+}
+.container .content
+{
+    width:90%;
+    height:95%;
+    border-radius: 30px;
+    background-color: #fff;
+    margin:auto;
+    
+}
+.container .content .header
+{
+    width:100%;
+    height:12%;
+    
+    display: flex;
+    flex-direction: row;
+}
+.container .content .header .logo
+{
+    flex-basis: 30%;
+    padding:20px 10px;
+}
+.container .content .header .logo img
+{
+    margin-left: 20%;
+}
+.container .content .header .list
+{
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: row;
+}
+.container .content .header .list ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:450px;
+    margin-top: 20px;
+}
+.container .content .header .list ul a
+{
+    color:#274054;
+    text-decoration: none;
+}
+.container .content .header .list ul a:hover 
+{
+    text-decoration: underline;
+    color:rgb(54, 74, 85);
+}
+.container .content .header .list button
+{
+    width: 115px;
+    height:35px;
+    background-color: #fff;
+    border:none;
+    border-radius: 7px;
+    box-shadow: 1px 1px 8px #ccc;
+    margin-top: 12px;
+    margin-left: 50px;
+    color:#215471;
+}
+.container .content .header .list button:hover
+{
+    background-color: #c0d9e7a2;
+    color:#274054;
+}
+.container .content .main
+{
+    width:100%;
+    height:78%;
+
+    display: flex;
+    flex-direction: row;
+}
+.container .content .main .left
+{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.container .content .main .left span
+{
+    width:90px;
+    height:90px;
+    background-color: #c0d9e7;
+    border-radius: 50%;
+    position: absolute;
+    top:50px;
+    left:50px;
+}
+.container .content .main .left .info
+{
+    position: absolute;
+    top:90px;
+    left:120px;
+    
+}
+.container .content .main .left .info h1
+{
+    color:#274054;
+    font-size: 2.4rem;
+}
+.container .content .main .left .info p{
+    margin-top: 20px;
+    color: #274054;
+    font-size: 12px;
+}
+.container .content .main .left .info button
+{
+    width: 115px;
+    height:35px;
+    box-shadow: 1px 1px 8px #ccc;
+    margin-top: 30px;
+    border:none;
+    border-radius: 10px;
+
+}
+.container .content .main .left .info #first
+{
+    background-color: #2397d7;
+    color:#fff;
+    margin-right: 10px;
+}
+.container .content .main .left .info #first:hover
+{
+    background-color: transparent;
+    color:#2397d7;
+    border:1px solid #2397d7;
+}
+.container .content .main .left .info #second
+{
+    background-color: #fff;
+    color:#274054;
+}
+.container .content .main .left .info #second:hover
+{
+    background-color: #c0d9e7a2;
+    color:#274054;
+}
+.container .content .main .right
+{
+    flex-basis: 50%;
+    
+}
+.container .content .main .right img
+{
+    width:500px;
+    height:400px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
